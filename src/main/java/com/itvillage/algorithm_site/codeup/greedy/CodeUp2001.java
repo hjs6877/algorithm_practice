@@ -2,7 +2,7 @@ package com.itvillage.algorithm_site.codeup.greedy;
 
 import java.util.Scanner;
 
-public class AtLeastCost {
+public class CodeUp2001 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

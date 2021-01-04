@@ -2,7 +2,7 @@ package com.itvillage.book.this_is_coding_test.part2;
 
 import java.util.Scanner;
 
-public class Chapter04Problem01 {
+public class Chapter04Problem02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String pos = scanner.nextLine();

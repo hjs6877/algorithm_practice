@@ -42,6 +42,20 @@ public class Chapter05Example09 {
     }
 
     private static void bfs(int start) {
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(start);
+        visited[start] = true;
 
+        while (!queue.isEmpty()) {
+            int x = queue.poll();
+            System.out.print(x + " ");
+            for (int i = 0; i < graph.get(x).size(); i++) {
+                int y = graph.get(x).get(i);
+                if (!visited[y]) {
+                    queue.offer(y);
+                    visited[y] = true;
+                }
+            }
+        }
     }
 }

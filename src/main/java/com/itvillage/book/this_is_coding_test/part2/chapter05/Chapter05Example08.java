@@ -1,4 +1,4 @@
-package com.itvillage.book.this_is_coding_test.part2;
+package com.itvillage.book.this_is_coding_test.part2.chapter05;
 
 import java.util.ArrayList;
 import java.util.List;

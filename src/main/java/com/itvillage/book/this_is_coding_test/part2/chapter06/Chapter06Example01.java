@@ -1,5 +1,8 @@
 package com.itvillage.book.this_is_coding_test.part2.chapter06;
 
+/**
+ * 선택 정렬
+ */
 public class Chapter06Example01 {
     public static void main(String[] args) {
         int[] numbers = {7, 5, 9, 0, 3, 1, 6, 2, 4, 8};

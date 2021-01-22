@@ -1,8 +1,11 @@
-package com.itvillage.book.this_is_coding_test.part2.chapter05;
+package com.itvillage.book.this_is_coding_test.part2.chapter05_dfs_bfs.solve;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * DFS 예제
+ */
 public class Chapter05Example08 {
     public static List<List<Integer>> graph = new ArrayList<>();
     public static boolean[] visited = new boolean[9];

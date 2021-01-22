@@ -1,4 +1,4 @@
-package com.itvillage.book.this_is_coding_test.part2.chapter05;
+package com.itvillage.book.this_is_coding_test.part2.chapter05_dfs_bfs.solve;
 
 import java.util.*;
 

@@ -5,19 +5,31 @@ import java.util.Scanner;
 public class BinarySearchExample01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int count = scanner.nextInt();
+        int size = scanner.nextInt();
         int target = scanner.nextInt();
-        int[] arr = new int[count];
+        int[] arr = new int[size];
 
-        for (int i = 0; i < count; i++) {
+        for (int i = 0; i < size; i++) {
             arr[i] = scanner.nextInt();
         }
 
+
+
+        int result = binarySearch(arr, target, size);
+
+        if (result == -1) {
+            System.out.println("원소가 존재하지 않습니다.");
+        } else {
+            System.out.println(arr[result]);
+        }
+    }
+
+    private static int binarySearch(int[] arr, int target, int size) {
         int start = 0;
-        int end = count-1;
-        int mid = end/2;
-        System.out.print(mid);
-        while (target != mid) {
+        int end = size-1;
+        int mid = (start + end)/2;
+
+        while (start <= end) {
             /**
              * arr[mid]가 target 보다 크다면,
              *  - end 는 mid - 1
@@ -26,6 +38,15 @@ public class BinarySearchExample01 {
              *  - start 는 mid + 1
              *  - mid는 다시 구한다.
              */
+            if (arr[mid] > target) {
+                end = mid - 1;
+            } else if (arr[mid] < target) {
+                start = mid + 1;
+            } else {
+                return mid;
+            }
+            mid = (start + end)/2;
         }
+        return -1;
     }
 }

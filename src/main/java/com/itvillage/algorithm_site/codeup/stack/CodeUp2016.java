@@ -1,30 +1,43 @@
 package com.itvillage.algorithm_site.codeup.stack;
 
+import java.util.LinkedList;
 import java.util.Scanner;
+import java.util.Stack;
 
 // TODO 해결 필요
 public class CodeUp2016 {
+    private static Stack<String> stack = new Stack();
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int length = scanner.nextInt();
         scanner.nextLine();
         String num = scanner.nextLine();
         String[] nums = num.split("");
-        String[] reverse = new String[nums.length];
 
-        for (int i = 0; i < length; i++) {
-            int rIndex = (num.length() - 1) - i;
-            reverse[rIndex] = nums[i];
-        }
+        addAll(nums);
 
-        String appended = "";
-        for (int i = 0; i < length; i++) {
-            appended += reverse[i];
-            if (i % 3 == 0) {
-                appended += ",";
+        String result = "";
+        for (int i = 1; !stack.isEmpty(); i++) {
+            result += stack.peek();
+            stack.pop();
+            if (i % 3 == 0 && !stack.isEmpty()) {
+                result += ",";
             }
+
         }
 
-        System.out.print(appended);
+        String[] rNum = result.split("");
+        addAll(rNum);
+
+        while (!stack.isEmpty()) {
+            System.out.print(stack.peek());
+            stack.pop();
+        }
+    }
+
+    private static void addAll(String[] nums) {
+        for (String n : nums) {
+            stack.add(n);
+        }
+
     }
 }

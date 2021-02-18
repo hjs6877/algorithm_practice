@@ -1,4 +1,4 @@
-package com.itvillage.book.this_is_coding_test.part2.chapter03.solve;
+package com.itvillage.book.this_is_coding_test.part2.chapter03_greedy.solve;
 
 import java.util.Scanner;
 

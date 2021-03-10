@@ -1,4 +1,4 @@
-package com.itvillage.book.this_is_coding_test.part2.chapter09.solve;
+package com.itvillage.book.this_is_coding_test.part2.chapter09_shortest.solve;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package com.itvillage.book.this_is_coding_test.part2.chapter09.solve;
+package com.itvillage.book.this_is_coding_test.part2.chapter09_shortest.solve;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,6 +11,7 @@ public class Chapter09Example01 {
     private static boolean[] visited = new boolean[100001];
     private static int n, m, start;
     private final static int INF = (int)1e9;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();

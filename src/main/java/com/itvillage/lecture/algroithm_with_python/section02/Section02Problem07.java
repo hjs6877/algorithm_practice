@@ -18,7 +18,7 @@ public class Section02Problem07 {
             if (arr[i] == 0) {
                 count++;
             }
-            for (int j = i * 2 /** 2를 곱해줘도 되고 안해도 상관없음 */; j <= n; j += i /** i의 배수들만 loop를 돌게 해준다 */) {
+            for (int j = i /** 2를 곱해줘도 되고 안해도 상관없음 */; j <= n; j += i /** i의 배수들만 loop를 돌게 해준다 */) {
                 arr[j] = 1;
             }
         }

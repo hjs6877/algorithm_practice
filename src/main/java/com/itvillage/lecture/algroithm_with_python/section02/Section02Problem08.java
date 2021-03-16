@@ -6,7 +6,7 @@ import java.util.Scanner;
  * 뒤집은 소수
  *  - StringBuffer 또는 StringBuilder를 사용해서 문자열을 뒤집을 수 있고, '0'을 제거할 수 있다.
  */
-public class SectionProblem08 {
+public class Section02Problem08 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

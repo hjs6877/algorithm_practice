@@ -13,15 +13,9 @@ public class Section02Problem07 {
         int n = scanner.nextInt();
 
         int count = 0;
-        int[] arr = new int[n + 1];
-        for (int i = 2; i <= n; i++) {
-            if (arr[i] == 0) {
-                count++;
-            }
-            for (int j = i /** 2를 곱해줘도 되고 안해도 상관없음 */; j <= n; j += i /** i의 배수들만 loop를 돌게 해준다 */) {
-                arr[j] = 1;
-            }
-        }
+        int[] arr = new int[n + 1]; // 마지막 n 까지 확인해야 하므로 1을 더해준다.
+
+        // TODO 알고리즘 다시 구현 필요
 
         System.out.print(count);
     }

@@ -25,7 +25,7 @@ public class Section05Problem03 {
             if (s.isEmpty()) {
                 s.push(ch);
             } else {
-                // '('를 만난다면 'C'를 Stack 에 추가한다.
+                // '('를 만난다면 '('를 Stack 에 추가한다.
                 if (ch == '(') {
                     s.push(ch);
                 } else if(ch == ')'){ // ')'를 만난다면 '('를 만나기전까지 Stack 에 있는 연산자를 꺼낸다.

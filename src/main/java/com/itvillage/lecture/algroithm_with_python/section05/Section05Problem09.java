@@ -28,7 +28,7 @@ public class Section05Problem09 {
             }
         }
 
-
+        
         if (map.entrySet().stream().anyMatch(e -> e.getValue() != 0)) {
             System.out.print("NO");
         } else {

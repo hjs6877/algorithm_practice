@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 중복 순열 구하기
  */
-public class Section07Problem06 {
+public class Section06Problem06 {
     public static int n, m;
     public static int[] values;
     public static int count;

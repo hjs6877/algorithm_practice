@@ -19,7 +19,7 @@ public class Section06Problem08 {
         System.out.println(count);
     }
 
-    private static void dfs(int level, int s) {
+    private static void dfs(int level, int selected) {
         if (level == m) {
             for (int i = 0; i < values.length; i++) {
                 System.out.print(values[i] + " ");
@@ -29,7 +29,7 @@ public class Section06Problem08 {
             return;
         } else {
             for (int i = 1; i <= n; i++) {
-                if (s == i) {
+                if (selected == i) {
                     continue;
                 }
                 values[level] = i;

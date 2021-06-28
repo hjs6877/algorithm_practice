@@ -12,8 +12,6 @@ public class CodeUp2650 {
             arr[i] = scanner.nextInt();
         }
 
-        Arrays.sort(arr);
-
         int gcd = gcd(arr[0], arr[1]);
         int result2 = gcd(arr[2], gcd);
 

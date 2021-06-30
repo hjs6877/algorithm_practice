@@ -1,6 +1,5 @@
 package com.itvillage.algorithm_site.codeup.jungall01;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class CodeUp4816 {

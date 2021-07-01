@@ -1,9 +1,7 @@
 package com.itvillage.algorithm_site.leetcode.easy;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 public class SingleNumber {
     public static void main(String[] args) {

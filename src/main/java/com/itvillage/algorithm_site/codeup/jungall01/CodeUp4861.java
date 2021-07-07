@@ -15,30 +15,39 @@ public class CodeUp4861 {
             grades[i] = scanner.nextInt();
         }
 
-        int[] fCnt = new int[6 + 1];
-        int[] mCnt = new int[6 + 1];
+        int cnt12 = 0;
+        int fCnt34 = 0;
+        int mCnt34 = 0;
+        int fCnt56 = 0;
+        int mCnt56 = 0;
 
 
         for (int i = 0; i < n; i++) {
-            if (genders[i] == 0) {
-                fCnt[grades[i]]++;
-            } else {
-                mCnt[grades[i]]++;
+            if (grades[i] == 1 || grades[i] == 2) {
+                cnt12++;
+            } else if ((grades[i] == 3 || grades[i] == 4) && genders[i] == 0) {
+                    fCnt34++;
+            } else if ((grades[i] == 3 || grades[i] == 4) && genders[i] == 1) {
+                mCnt34++;
+            } else if ((grades[i] == 5 || grades[i] == 6) && genders[i] == 0) {
+                fCnt56++;
+            } else if ((grades[i] == 5 || grades[i] == 6) && genders[i] == 1) {
+                mCnt56++;
             }
         }
 
         int totalRoom = 0;
-        for (int i = 1; i < fCnt.length; i++) {
-            totalRoom += fCnt[i] / k;
-            if (fCnt[i] % k != 0) {
-                totalRoom++;
-            }
+        totalRoom += cnt12 / k;
+        totalRoom += fCnt34 / k;
+        totalRoom += mCnt34 / k;
+        totalRoom += fCnt56 / k;
+        totalRoom += mCnt56 / k;
 
-            totalRoom += mCnt[i] / k;
-            if (mCnt[i] % k != 0) {
-                totalRoom++;
-            }
-        }
+        if (cnt12 % k != 0) totalRoom++;
+        if (fCnt34 % k != 0) totalRoom++;
+        if (mCnt34 % k != 0) totalRoom++;
+        if (fCnt56 % k != 0) totalRoom++;
+        if (mCnt56 % k != 0) totalRoom++;
 
         System.out.print(totalRoom);
     }

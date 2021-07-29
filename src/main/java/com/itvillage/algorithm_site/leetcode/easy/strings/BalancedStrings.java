@@ -1,4 +1,4 @@
-package com.itvillage.algorithm_site.leetcode.easy;
+package com.itvillage.algorithm_site.leetcode.easy.strings;
 
 public class BalancedStrings {
     public static void main(String[] args) {

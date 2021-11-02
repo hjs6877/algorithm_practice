@@ -5,7 +5,12 @@ import java.util.Map;
 
 public class SpyClothes {
     public static void main(String[] args) {
-        String[][] clothes = {{"yellow_hat", "headgear"}, {"green_turban", "headgear"}, {"blue_sunglasses", "eyewear"}};
+        String[][] clothes = {
+                {"yellow_hat", "headgear"},
+                {"green_turban", "headgear"},
+                {"blue_sunglasses", "eyewear"},
+                {"smoky_makeup", "face"}
+        };
 
         int answer = solution(clothes);
 

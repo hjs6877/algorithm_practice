@@ -16,14 +16,14 @@ public class Chapter06Example04 {
 
     private static void quickSort(int[] arr, int start, int end) {
         // 종료 조건 지정
-        if(start >= end) return;
+        if (start >= end) return;
         int pivot = start;
         int left = pivot + 1;
         int right = end;
 
         while (left <= right) {
-            while(left <= end && arr[left] <= arr[pivot]) left++;
-            while(right > start && arr[right] >= arr[pivot]) right--;
+            while (left <= end && arr[left] <= arr[pivot]) left++;
+            while (right > start && arr[right] >= arr[pivot]) right--;
 
             if (left > right) {
                 int temp = arr[right];
@@ -36,7 +36,7 @@ public class Chapter06Example04 {
             }
         }
 
-        quickSort(arr, start, right -1);
+        quickSort(arr, start, right - 1);
         quickSort(arr, right + 1, end);
     }
 }

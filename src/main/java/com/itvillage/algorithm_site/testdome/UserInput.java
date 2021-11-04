@@ -3,6 +3,7 @@ package com.itvillage.algorithm_site.testdome;
 public class UserInput {
     public static class TextInput {
         private static StringBuilder sb = new StringBuilder();
+
         public void add(char c) {
             sb.append(c);
         }

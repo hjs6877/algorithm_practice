@@ -9,6 +9,7 @@ public class Network {
 
         System.out.println(answer);
     }
+
     public static int solution(int n, int[][] computers) {
         int answer = 0;
         boolean[] visited = new boolean[computers.length];

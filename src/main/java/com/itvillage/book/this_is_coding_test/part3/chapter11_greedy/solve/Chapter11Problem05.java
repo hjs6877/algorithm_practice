@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 /**
  * 볼링공 고르기
- *  - 특정 점수의 볼링공 개수 x 나머지 볼링공 개수 = 경우의 수
- *  - 이미 뽑은 특정 점수의 볼링공 개수(n)는 전체 볼링공 개수에서 제외한다.
+ * - 특정 점수의 볼링공 개수 x 나머지 볼링공 개수 = 경우의 수
+ * - 이미 뽑은 특정 점수의 볼링공 개수(n)는 전체 볼링공 개수에서 제외한다.
  */
 public class Chapter11Problem05 {
     public static void main(String[] args) {

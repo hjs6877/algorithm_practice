@@ -9,6 +9,7 @@ public class Section07Problem01 {
     static int n, m;
     static int[][] arr;
     static int max = Integer.MIN_VALUE;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();

@@ -13,6 +13,7 @@ public class Problem03 {
 
         System.out.println(result);
     }
+
     public static int solution(int n) {
         int count = 0;
         if (n % 2 == 0) {

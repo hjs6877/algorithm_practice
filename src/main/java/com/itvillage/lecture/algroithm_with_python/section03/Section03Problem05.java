@@ -25,7 +25,7 @@ public class Section03Problem05 {
             }
             for (int j = i + 1; j < n; j++) {
                 sum += arr[j];
-                if(sum == m){
+                if (sum == m) {
                     count++;
                     break;
                 }

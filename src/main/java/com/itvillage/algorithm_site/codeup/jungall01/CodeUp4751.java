@@ -23,7 +23,7 @@ public class CodeUp4751 {
         Map<Integer, Integer> map = new HashMap<>();
         int count = 0;
         for (Player p : players) {
-            if(count == 3) break;
+            if (count == 3) break;
             if (map.get(p.getCountry()) == null) {
                 System.out.printf("%d %d", p.getCountry(), p.getPlayer());
                 System.out.println();
@@ -43,6 +43,7 @@ public class CodeUp4751 {
         int country;
         int player;
         int point;
+
         public Player(int country, int player, int point) {
             this.country = country;
             this.player = player;

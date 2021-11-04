@@ -10,6 +10,7 @@ public class Section06Problem04Practice01 {
     static int n;
     static int[] arr;
     static int total;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();

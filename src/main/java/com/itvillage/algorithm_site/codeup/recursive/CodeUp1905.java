@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CodeUp1905 {
     static int num, n;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();

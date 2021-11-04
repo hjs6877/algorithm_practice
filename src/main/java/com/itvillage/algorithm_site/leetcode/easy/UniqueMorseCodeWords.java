@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class UniqueMorseCodeWords {
     public static void main(String[] args) {
-        String[] words = {"gin","zen","gig","msg"};
+        String[] words = {"gin", "zen", "gig", "msg"};
         int result = uniqueMorseRepresentations(words);
 
         System.out.print(result);
@@ -16,8 +16,8 @@ public class UniqueMorseCodeWords {
 
     public static int uniqueMorseRepresentations(String[] words) {
         String[] morseCodes = {
-                ".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--",
-                "-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
+                ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--",
+                "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."};
         Map<Character, String> map = new HashMap<>();
         for (char c = 'a'; c <= 'a' + 25; c++) {
             map.put(c, morseCodes[c - ('z' - 25)]);

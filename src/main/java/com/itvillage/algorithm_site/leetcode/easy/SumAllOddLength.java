@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SumAllOddLength {
     public static void main(String[] args) {
-        int[] arr = {1,4,2,5,3};
+        int[] arr = {1, 4, 2, 5, 3};
         int result = sumOddLengthSubarrays(arr);
 
         System.out.print(result);

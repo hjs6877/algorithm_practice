@@ -65,11 +65,11 @@ public class Chapter04Problem03 {
         }
 
         System.out.println(count);
-   }
+    }
 
     private static void turnLeft() {
         direction--;
-        if(direction == -1)
+        if (direction == -1)
             direction = 3;
     }
 }

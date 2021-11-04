@@ -23,7 +23,7 @@ public class Section02Problem02 {
             int[] slice = Arrays.copyOfRange(arr, s - 1, e);
 
             Arrays.sort(slice);
-            System.out.println(slice[k-1]);
+            System.out.println(slice[k - 1]);
         }
     }
 }

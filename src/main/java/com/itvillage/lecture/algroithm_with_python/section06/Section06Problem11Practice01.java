@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class Section06Problem11Practice01 {
     static int n, k, m, count;
     static int[] arr;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();
@@ -24,7 +25,7 @@ public class Section06Problem11Practice01 {
 
     private static void dfs(int level, int start, int sum) {
         if (level == k) {
-            if(sum % m == 0) count++;
+            if (sum % m == 0) count++;
         } else {
             for (int i = start; i < n; i++) {
                 dfs(level + 1, i + 1, sum + arr[i]);

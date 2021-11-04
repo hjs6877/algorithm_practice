@@ -32,7 +32,7 @@ public class Chapter07Problem03 {
             }
 
             if (total > m) {
-                start = mid +1;
+                start = mid + 1;
             } else {
                 end = mid - 1;
             }

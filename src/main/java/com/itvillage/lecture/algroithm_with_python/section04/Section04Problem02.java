@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * 랜선 자르기(결정 알고리즘)
- *  - 이진 탐색을 이용해서 잘라야 되는 랜선의 최대 길이를 구한다.
+ * - 이진 탐색을 이용해서 잘라야 되는 랜선의 최대 길이를 구한다.
  */
 public class Section04Problem02 {
     public static void main(String[] args) {

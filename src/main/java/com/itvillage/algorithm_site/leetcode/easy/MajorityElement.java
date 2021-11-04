@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class MajorityElement {
     public static void main(String[] args) {
-        int[] nums = {3,2,3};
+        int[] nums = {3, 2, 3};
         int result = majorityElement(nums);
         System.out.print(result);
     }
@@ -20,7 +20,7 @@ public class MajorityElement {
                 map.put(num, 1);
             }
             if (map.get(num) > n / 2) {
-               return num;
+                return num;
             }
         }
         return 0;

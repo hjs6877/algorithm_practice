@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MaxProductDifference {
     public static void main(String[] args) {
-        int[] nums = {4,2,5,9,7,4,8};
+        int[] nums = {4, 2, 5, 9, 7, 4, 8};
         int result = maxProductDifference(nums);
         System.out.print(result);
     }

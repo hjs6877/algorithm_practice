@@ -20,7 +20,7 @@ public class BiggestNumber {
         }
 
         // 문자열을 붙일 경우 큰 수 순으로 정렬
-        Arrays.sort(nums, (s1, s2) -> ((s2+s1).compareTo((s1+s2))));
+        Arrays.sort(nums, (s1, s2) -> ((s2 + s1).compareTo((s1 + s2))));
 
         if (nums[0].equals("0")) {
             return "0";

@@ -9,6 +9,7 @@ public class Section06Problem04 {
     static int n;
     static int[] nodes;
     static int total;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();

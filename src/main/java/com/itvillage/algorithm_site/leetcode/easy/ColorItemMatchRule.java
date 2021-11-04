@@ -7,9 +7,9 @@ import java.util.List;
 public class ColorItemMatchRule {
     public static void main(String[] args) {
         List<List<String>> items = Arrays.asList(
-                Arrays.asList("phone","blue","pixel"),
-                Arrays.asList("computer","silver","phone"),
-                Arrays.asList("phone","gold","iphone")
+                Arrays.asList("phone", "blue", "pixel"),
+                Arrays.asList("computer", "silver", "phone"),
+                Arrays.asList("phone", "gold", "iphone")
         );
         String ruleKey = "type";
         String ruleValue = "phone";

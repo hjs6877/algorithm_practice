@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class MaximumTwoElements {
     public static void main(String[] args) {
-        int[] nums = {1,5,4,5};
+        int[] nums = {1, 5, 4, 5};
         int result = maxProduct(nums);
 
         System.out.println(result);

@@ -6,6 +6,7 @@ public class CodeUp5123 {
     static int n;
     static int[] arr;
     static int result;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();

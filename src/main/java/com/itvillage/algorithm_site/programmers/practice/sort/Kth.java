@@ -32,7 +32,8 @@ public class Kth {
 
         for (int i = 0; i < substr.length; i++) {
             Arrays.sort(substr[i]);
-            int n = substr[i][commands[i][2] - 1];;
+            int n = substr[i][commands[i][2] - 1];
+            ;
 
             result[i] = n;
         }

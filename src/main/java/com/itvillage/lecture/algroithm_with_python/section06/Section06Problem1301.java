@@ -12,6 +12,7 @@ public class Section06Problem1301 {
     static int n;
     static int result;
     static boolean[] visited;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();
@@ -26,7 +27,7 @@ public class Section06Problem1301 {
             graph.get(scanner.nextInt()).add(scanner.nextInt());
         }
 
-        
+
         dfs(1);
         System.out.print(result);
     }
@@ -40,7 +41,7 @@ public class Section06Problem1301 {
             if (y == n) {
                 result++;
                 return;
-            } else if(!visited[y]){
+            } else if (!visited[y]) {
                 dfs(y);
                 visited[y] = false;
             }

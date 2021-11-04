@@ -5,8 +5,9 @@ import java.util.*;
 public class Chapter09Example02 {
     private static int n, m, start;
     private static int[] d = new int[100001];
-    private final static int INF = (int)1e9;
+    private final static int INF = (int) 1e9;
     private static List<List<Node>> graph = new ArrayList<>();
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();
@@ -51,7 +52,7 @@ public class Chapter09Example02 {
         pq.offer(new Node(start, 0));
         d[start] = 0;
 
-        while(!pq.isEmpty()) { // 큐가 비어있지 않다면
+        while (!pq.isEmpty()) { // 큐가 비어있지 않다면
             // 가장 최단 거리가 짧은 노드에 대한 정보 꺼내기
             Node node = pq.poll();
             int dist = node.getDistance(); // 현재 노드까지의 비용

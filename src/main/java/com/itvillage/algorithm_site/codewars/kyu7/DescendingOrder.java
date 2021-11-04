@@ -9,6 +9,7 @@ public class DescendingOrder {
         int max = sortDesc(42145);
         System.out.println(max);
     }
+
     public static int sortDesc(final int num) {
         String[] numbers = String.valueOf(num).split("");
         Arrays.sort(numbers, Collections.reverseOrder());

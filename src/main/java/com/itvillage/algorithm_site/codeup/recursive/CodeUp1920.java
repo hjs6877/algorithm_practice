@@ -1,9 +1,11 @@
 package com.itvillage.algorithm_site.codeup.recursive;
+
 import java.util.Scanner;
 
 public class CodeUp1920 {
     static StringBuffer b = new StringBuffer();
     static int n;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();

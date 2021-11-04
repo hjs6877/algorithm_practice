@@ -2,7 +2,7 @@ package com.itvillage.algorithm_site.leetcode.easy.arrays;
 
 public class GreatestElementRightSide {
     public static void main(String[] args) {
-        int[] arr = {17,18,5,4,6,1};
+        int[] arr = {17, 18, 5, 4, 6, 1};
         int[] result = replaceElements(arr);
 
         for (int n : result) {

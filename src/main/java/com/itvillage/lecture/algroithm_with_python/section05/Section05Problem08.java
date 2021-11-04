@@ -12,7 +12,7 @@ public class Section05Problem08 {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         String[] w1 = new String[n];
-        String[] w2 = new String[n-1];
+        String[] w2 = new String[n - 1];
 
         for (int i = 0; i < w1.length; i++) {
             w1[i] = scanner.next();
@@ -28,7 +28,7 @@ public class Section05Problem08 {
         }
 
         for (String s : w1) {
-            if(!map.containsKey(s)){
+            if (!map.containsKey(s)) {
                 System.out.print(s);
                 break;
             }

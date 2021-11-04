@@ -9,6 +9,7 @@ import java.util.List;
 public class Section06Problem02 {
     private static List<List<Integer>> graph = new ArrayList<>();
     private static boolean[] visited = new boolean[8];
+
     public static void main(String[] args) {
         for (int i = 0; i < 8; i++) {
             graph.add(new ArrayList<>());
@@ -34,7 +35,7 @@ public class Section06Problem02 {
 
         for (int i = 0; i < graph.get(x).size(); i++) {
             int y = graph.get(x).get(i);
-            if(!visited[y]) {
+            if (!visited[y]) {
                 dfs(y);
             }
         }

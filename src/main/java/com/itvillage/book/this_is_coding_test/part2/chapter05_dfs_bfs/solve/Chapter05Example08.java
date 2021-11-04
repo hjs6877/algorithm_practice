@@ -9,6 +9,7 @@ import java.util.List;
 public class Chapter05Example08 {
     public static List<List<Integer>> graph = new ArrayList<>();
     public static boolean[] visited = new boolean[9];
+
     public static void main(String[] args) {
         for (int i = 0; i < 9; i++) {
             graph.add(new ArrayList<>());

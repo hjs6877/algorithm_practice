@@ -11,7 +11,7 @@ public class IncreasingDecreasingString {
     }
 
     public static String sortString(String s) {
-        List<Character> chars = s.chars().mapToObj(e -> (char)e).collect(Collectors.toList());
+        List<Character> chars = s.chars().mapToObj(e -> (char) e).collect(Collectors.toList());
         StringBuilder sb = new StringBuilder();
 
         String order = "asc";

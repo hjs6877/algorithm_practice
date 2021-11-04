@@ -25,7 +25,9 @@ public class Chapter04Example01 {
                 }
             }
 
-            if(nx < 1 || nx > n || ny < 1 || ny > n){ continue;}
+            if (nx < 1 || nx > n || ny < 1 || ny > n) {
+                continue;
+            }
 
             x = nx;
             y = ny;

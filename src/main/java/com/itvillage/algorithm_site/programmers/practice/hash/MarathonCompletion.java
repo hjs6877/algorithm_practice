@@ -12,6 +12,7 @@ public class MarathonCompletion {
         String answer = solution(participant, completion);
         System.out.print(answer);
     }
+
     public static String solution(String[] participant, String[] completion) {
         String answer = "";
         Map<String, Integer> map = new HashMap<>();

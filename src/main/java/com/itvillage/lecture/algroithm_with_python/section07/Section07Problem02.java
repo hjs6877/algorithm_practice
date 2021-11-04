@@ -10,11 +10,12 @@ public class Section07Problem02 {
     static int n;
     static int[][] tp;
     static int maxPrice;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         n = scanner.nextInt();
-        tp = new int[n+1][2];
+        tp = new int[n + 1][2];
 
         for (int i = 1; i <= n; i++) {
             tp[i][0] = scanner.nextInt();
@@ -31,8 +32,7 @@ public class Section07Problem02 {
     private static void dfs(int level, int sum) {
         if (level == n + 1) {
             maxPrice = Math.max(maxPrice, sum);
-        }
-        else {
+        } else {
             if (level + tp[level][0] <= n + 1) {
                 dfs(level + tp[level][0], sum + tp[level][1]);
             } else {

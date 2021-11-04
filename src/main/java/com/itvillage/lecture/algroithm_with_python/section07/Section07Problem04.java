@@ -10,6 +10,7 @@ public class Section07Problem04 {
     static int[] coinTypes;
     static int[] coinsAmount;
     static int count;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         t = scanner.nextInt();

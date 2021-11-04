@@ -2,7 +2,7 @@ package com.itvillage.algorithm_site.leetcode.easy.arrays;
 
 public class FinalPricesSpecialDiscount {
     public static void main(String[] args) {
-        int[] prices = {10,1,1,6};
+        int[] prices = {10, 1, 1, 6};
         int[] result = finalPrices(prices);
 
         for (int p : result) {

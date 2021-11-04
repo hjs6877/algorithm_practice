@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Section03Problem10 {
     public static int[] count = new int[10];
     public static boolean isRight = true;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[][] arr = new int[9][9];
@@ -23,7 +24,7 @@ public class Section03Problem10 {
         isRight = isRight(arr, 9, "row");
 
         if (isRight) {
-            isRight = isRight(arr, 9, "col") ;
+            isRight = isRight(arr, 9, "col");
         }
         int n = 3;
 

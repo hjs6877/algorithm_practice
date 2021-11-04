@@ -7,8 +7,9 @@ import java.util.Scanner;
  */
 public class Section06Problem08 {
     static int[] values;
-    static int n,m;
+    static int n, m;
     static int count;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();

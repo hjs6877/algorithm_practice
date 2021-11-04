@@ -8,6 +8,7 @@ import java.util.function.Predicate;
  */
 public class Section03Problem11 {
     static int count = 0;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[][] arr = new int[7][7];

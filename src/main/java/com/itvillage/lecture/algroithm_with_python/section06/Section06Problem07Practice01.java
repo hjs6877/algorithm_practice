@@ -31,7 +31,7 @@ public class Section06Problem07Practice01 {
         }
 
         if (sum > m) {
-          return;
+            return;
         } else if (sum == m) {
             min = Math.min(min, level);
         } else {

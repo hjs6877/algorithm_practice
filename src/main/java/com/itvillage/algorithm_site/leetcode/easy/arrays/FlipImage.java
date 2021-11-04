@@ -2,7 +2,7 @@ package com.itvillage.algorithm_site.leetcode.easy.arrays;
 
 public class FlipImage {
     public static void main(String[] args) {
-        int[][] image = {{1,1,0,0}, {1,0,0,1}, {0,1,1,1}, {1,0,1,0}};
+        int[][] image = {{1, 1, 0, 0}, {1, 0, 0, 1}, {0, 1, 1, 1}, {1, 0, 1, 0}};
         int[][] result = flipAndInvertImage(image);
 
         for (int i = 0; i < result.length; i++) {

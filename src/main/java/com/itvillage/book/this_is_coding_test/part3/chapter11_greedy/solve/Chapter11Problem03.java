@@ -10,13 +10,13 @@ public class Chapter11Problem03 {
         for (int i = 0; i < s.length() - 1; i++) {
             char next = s.charAt(i + 1);
             if (now != next) {
-                if(next == '0') oneCnt++;
-                if(next == '1') zeroCnt++;
+                if (next == '0') oneCnt++;
+                if (next == '1') zeroCnt++;
                 now = next;
             }
         }
-        if(now == '0') zeroCnt++;
-        if(now == '1') oneCnt++;
+        if (now == '0') zeroCnt++;
+        if (now == '1') oneCnt++;
         System.out.print(Math.min(zeroCnt, oneCnt));
     }
 }

@@ -5,7 +5,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class Chapter05Problem04 {
-    public static int n,m;
+    public static int n, m;
     public static int[][] graph;
     public static int[] dx = {-1, 1, 0, 0};
     public static int[] dy = {0, 0, -1, 1};
@@ -40,8 +40,8 @@ public class Chapter05Problem04 {
                 int nx = x + dx[i];
                 int ny = y + dy[i];
 
-                if(nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
-                if(graph[nx][ny] == 0) continue;
+                if (nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
+                if (graph[nx][ny] == 0) continue;
 
                 if (graph[nx][ny] == 1) {
                     graph[nx][ny] = graph[x][y] + 1;

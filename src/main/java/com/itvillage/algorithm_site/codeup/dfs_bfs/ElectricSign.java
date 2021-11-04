@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ElectricSign {
     public static int n, m;
     public static int[][] graph = new int[100][100];
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();
@@ -47,20 +48,20 @@ public class ElectricSign {
         if (graph[x][y] == a) {
             graph[x][y] = b;
 
-            dfs(x-1, y, a, b);
-            dfs(x+1, y, a, b);
-            dfs(x, y-1, a, b);
-            dfs(x, y+1, a, b);
+            dfs(x - 1, y, a, b);
+            dfs(x + 1, y, a, b);
+            dfs(x, y - 1, a, b);
+            dfs(x, y + 1, a, b);
             return true;
         }
         return false;
     }
 
     private static int[][] deepCopy(int[][] original2) {
-        if(original2 == null) return null;
+        if (original2 == null) return null;
         int[][] result = new int[original2.length][original2[0].length];
 
-        for(int i=0; i<original2.length; i++){
+        for (int i = 0; i < original2.length; i++) {
             System.arraycopy(original2[i], 0, result[i], 0, original2[0].length);
         }
 

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ArrayPartitionI {
     public static void main(String[] args) {
-        int[] nums= {6,2,6,5,1,2};
+        int[] nums = {6, 2, 6, 5, 1, 2};
         int result = arrayPairSum(nums);
 
         System.out.print(result);

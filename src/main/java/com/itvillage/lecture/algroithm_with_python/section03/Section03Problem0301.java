@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * 카드 역배치
- *  - 배열을 copy 해서 역배치 하는 방법
+ * - 배열을 copy 해서 역배치 하는 방법
  */
 public class Section03Problem0301 {
     public static void main(String[] args) {

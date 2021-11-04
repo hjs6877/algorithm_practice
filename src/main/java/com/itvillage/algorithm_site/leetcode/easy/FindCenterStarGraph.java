@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class FindCenterStarGraph {
     public static void main(String[] args) {
-        int[][] edges = {{1,2}, {5,1}, {1,3}, {1,4}};
+        int[][] edges = {{1, 2}, {5, 1}, {1, 3}, {1, 4}};
         int result = findCenter(edges);
 
         System.out.print(result);

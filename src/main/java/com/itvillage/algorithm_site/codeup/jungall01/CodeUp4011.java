@@ -15,7 +15,6 @@ public class CodeUp4011 {
         gender = gender.equals("1") || gender.equals("3") ? "M" : "F";
 
 
-
         System.out.printf("%s/%s/%s %s", year, month, day, gender);
     }
 }

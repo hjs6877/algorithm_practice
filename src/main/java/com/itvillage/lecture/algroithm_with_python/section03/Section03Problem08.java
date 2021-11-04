@@ -38,7 +38,7 @@ public class Section03Problem08 {
                     } else {
                         mIdx = j - mv;
                     }
-                } else if(d == 1) { // 오른쪽으로 회전
+                } else if (d == 1) { // 오른쪽으로 회전
                     mIdx = (j + mv) % row.length;
                 }
                 nArr[mArr[i][0] - 1][mIdx] = arr[j];

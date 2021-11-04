@@ -2,7 +2,7 @@ package com.itvillage.algorithm_site.leetcode.easy;
 
 public class NumberGoodPairs {
     public static void main(String[] args) {
-        int[] nums = {1,2,3,1,1,3};
+        int[] nums = {1, 2, 3, 1, 1, 3};
         int result = numIdenticalPairs(nums);
 
         System.out.print(result);

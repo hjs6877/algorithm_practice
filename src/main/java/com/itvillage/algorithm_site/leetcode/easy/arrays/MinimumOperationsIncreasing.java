@@ -2,7 +2,7 @@ package com.itvillage.algorithm_site.leetcode.easy.arrays;
 
 public class MinimumOperationsIncreasing {
     public static void main(String[] args) {
-        int[] nums = {1,5,2,4,1};
+        int[] nums = {1, 5, 2, 4, 1};
         int result = minOperations(nums);
         System.out.println(result);
     }

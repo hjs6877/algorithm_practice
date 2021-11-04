@@ -2,7 +2,7 @@ package com.itvillage.algorithm_site.leetcode.easy;
 
 public class DecodeXORedArray {
     public static void main(String[] args) {
-        int[] encoded = {1,2,3};
+        int[] encoded = {1, 2, 3};
         int first = 1;
         int[] result = decode(encoded, first);
 
@@ -16,7 +16,7 @@ public class DecodeXORedArray {
         result[0] = first;
         for (int i = 0; i < encoded.length; i++) {
             int decoded = first ^ encoded[i];
-            result[i+1] = decoded;
+            result[i + 1] = decoded;
             first = decoded;
         }
 

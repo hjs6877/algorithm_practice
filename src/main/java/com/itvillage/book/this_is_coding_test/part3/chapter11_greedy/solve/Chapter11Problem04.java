@@ -12,6 +12,7 @@ public class Chapter11Problem04 {
     static int max;
     static int[] exists;
     static int[] arr;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

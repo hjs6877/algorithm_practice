@@ -14,7 +14,7 @@ public class Section06Problem01 {
     }
 
     private static void binaryNumber(int n) {
-        if(n == 0) return;
+        if (n == 0) return;
 
         int q = n / 2;
         binaryNumber(q);

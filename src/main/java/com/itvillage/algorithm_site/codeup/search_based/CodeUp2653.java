@@ -6,6 +6,7 @@ public class CodeUp2653 {
     static int n;
     static int[] arr;
     static int result;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();
@@ -21,7 +22,7 @@ public class CodeUp2653 {
             for (int num : arr) {
                 count = num == 0 ? count + 1 : 0;
 
-                if(count == 2) {
+                if (count == 2) {
                     result--;
                     break;
                 }

@@ -18,7 +18,7 @@ public class Section02Problem01 {
                 count++;
             }
 
-            if(count == k) {
+            if (count == k) {
                 System.out.print(i);
                 break;
             }

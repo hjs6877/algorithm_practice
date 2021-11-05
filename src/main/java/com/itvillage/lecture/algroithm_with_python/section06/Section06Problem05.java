@@ -10,6 +10,7 @@ public class Section06Problem05 {
     static int c;
     static int n;
     static int[] nodes;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         c = scanner.nextInt();
@@ -25,7 +26,7 @@ public class Section06Problem05 {
     }
 
     private static void dfs(int i, int sum) {
-        if( sum > c) return;
+        if (sum > c) return;
         if (i == n) {
             max = Math.max(max, sum);
         } else {

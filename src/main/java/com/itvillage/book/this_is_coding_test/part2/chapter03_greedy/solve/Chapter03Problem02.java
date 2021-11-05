@@ -29,7 +29,7 @@ public class Chapter03Problem02 {
 
         Arrays.sort(arr);
 
-        int count = (m/k) * k;
+        int count = (m / k) * k;
         sum += arr[n - 1] * count;
         sum += arr[n - 2] * (m - count);
 

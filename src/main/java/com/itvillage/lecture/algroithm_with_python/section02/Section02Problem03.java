@@ -27,6 +27,6 @@ public class Section02Problem03 {
 
         List<Integer> list = new ArrayList<>(set);
         Collections.sort(list, Collections.reverseOrder());
-        System.out.print(list.get(k-1));
+        System.out.print(list.get(k - 1));
     }
 }

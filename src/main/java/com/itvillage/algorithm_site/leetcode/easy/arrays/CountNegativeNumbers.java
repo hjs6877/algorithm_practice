@@ -2,7 +2,7 @@ package com.itvillage.algorithm_site.leetcode.easy.arrays;
 
 public class CountNegativeNumbers {
     public static void main(String[] args) {
-        int[][] grid = {{4,3,2,-1}, {3,2,1,-1}, {1,1,-1,-2}, {-1,-1,-2,-3}};
+        int[][] grid = {{4, 3, 2, -1}, {3, 2, 1, -1}, {1, 1, -1, -2}, {-1, -1, -2, -3}};
         int result = countNegatives(grid);
 
         System.out.print(result);

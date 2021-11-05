@@ -26,7 +26,7 @@ public class CodeUp4861 {
             if (grades[i] == 1 || grades[i] == 2) {
                 cnt12++;
             } else if ((grades[i] == 3 || grades[i] == 4) && genders[i] == 0) {
-                    fCnt34++;
+                fCnt34++;
             } else if ((grades[i] == 3 || grades[i] == 4) && genders[i] == 1) {
                 mCnt34++;
             } else if ((grades[i] == 5 || grades[i] == 6) && genders[i] == 0) {

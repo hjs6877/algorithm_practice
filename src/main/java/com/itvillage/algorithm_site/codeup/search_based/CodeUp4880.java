@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class CodeUp4880 {
     static int n, k, result;
     static List<List<Integer>> sector = new ArrayList<>();
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();

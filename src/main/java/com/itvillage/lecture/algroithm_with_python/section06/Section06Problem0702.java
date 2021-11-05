@@ -12,6 +12,7 @@ public class Section06Problem0702 {
     static Integer[] coins;
     static int count = Integer.MAX_VALUE;
     static int m;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();

@@ -10,6 +10,7 @@ public class Problem02 {
 
         System.out.println(result);
     }
+
     public static String solution(String s) {
         String[] split = s.split(" ");
         for (int i = 0; i < split.length; i++) {

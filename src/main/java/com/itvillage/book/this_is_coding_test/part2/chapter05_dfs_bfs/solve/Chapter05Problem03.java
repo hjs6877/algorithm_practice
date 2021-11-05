@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Chapter05Problem03 {
     public static int n, m;
     public static int[][] graph = new int[1000][1000];
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();
@@ -39,7 +40,7 @@ public class Chapter05Problem03 {
             graph[x][y] = 1;
             dfs(x - 1, y);
             dfs(x + 1, y);
-            dfs(x, y - 1 );
+            dfs(x, y - 1);
             dfs(x, y + 1);
             return true;
         }

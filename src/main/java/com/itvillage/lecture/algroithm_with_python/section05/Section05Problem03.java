@@ -28,7 +28,7 @@ public class Section05Problem03 {
                 // '('를 만난다면 '('를 Stack 에 추가한다.
                 if (ch == '(') {
                     s.push(ch);
-                } else if(ch == ')'){ // ')'를 만난다면 '('를 만나기전까지 Stack 에 있는 연산자를 꺼낸다.
+                } else if (ch == ')') { // ')'를 만난다면 '('를 만나기전까지 Stack 에 있는 연산자를 꺼낸다.
                     while (s.peek() != '(') {
                         System.out.print(s.peek());
                         s.pop();

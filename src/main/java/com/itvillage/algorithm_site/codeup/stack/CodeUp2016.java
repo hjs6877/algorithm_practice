@@ -7,6 +7,7 @@ import java.util.Stack;
 // TODO 해결 필요
 public class CodeUp2016 {
     private static Stack<String> stack = new Stack();
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         scanner.nextLine();

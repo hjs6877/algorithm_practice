@@ -10,7 +10,7 @@ public class Problem05 {
     public static int[] solution(int brown, int yellow) {
         int a = brown + yellow;
         int row = 0, col = 0;
-        for (int i = a; i > 0 ; i--) {
+        for (int i = a; i > 0; i--) {
             if (a % i == 0) {
                 col = i;
                 row = a / i;

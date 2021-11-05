@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class Section06Problem08Practice01 {
     static int m, n, count;
     static int[] values;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();
@@ -27,7 +28,7 @@ public class Section06Problem08Practice01 {
             System.out.println();
         } else {
             for (int i = 1; i <= n; i++) {
-                if(i == selected) continue;
+                if (i == selected) continue;
                 values[level] = i;
                 dfs(level + 1, i);
             }

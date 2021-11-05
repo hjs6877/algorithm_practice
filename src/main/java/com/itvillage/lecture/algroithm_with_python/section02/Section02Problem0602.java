@@ -27,6 +27,7 @@ public class Section02Problem0602 {
 
         System.out.println(maxNum);
     }
+
     public static int digitSum(int num) {
 
         int sum = 0;

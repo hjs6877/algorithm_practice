@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * 소수의 개수
- *  - 숫자만큼의 배열을 만들고, loop를 돌면서 해당 숫자의 배수들은 소수가 아니라고 1로 업데이트 하는게 핵심
+ * - 숫자만큼의 배열을 만들고, loop를 돌면서 해당 숫자의 배수들은 소수가 아니라고 1로 업데이트 하는게 핵심
  */
 public class Section02Problem07 {
     public static void main(String[] args) {

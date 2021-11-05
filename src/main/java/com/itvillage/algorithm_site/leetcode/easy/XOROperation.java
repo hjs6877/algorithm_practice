@@ -10,12 +10,13 @@ public class XOROperation {
     }
 
     public static int xorOperation(int n, int start) {
-        if(n == 1) return start;
+        if (n == 1) return start;
 
         int next = start + 2 * 1;
         int xor = start ^ next;
         for (int i = 2; i < n; i++) {
-            xor = xor ^ start + 2 * i;;
+            xor = xor ^ start + 2 * i;
+            ;
         }
 
         return xor;

@@ -10,6 +10,7 @@ public class Section06Problem05Practice01 {
     static int c;
     static int[] w;
     static int max = Integer.MIN_VALUE;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         c = scanner.nextInt();

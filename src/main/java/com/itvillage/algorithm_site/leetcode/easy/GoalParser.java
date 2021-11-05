@@ -19,7 +19,7 @@ public class GoalParser {
             } else if (command.charAt(i) == '(' && command.charAt(i + 1) == ')') {
                 sb.append("o");
                 i++;
-            } else if(command.charAt(i) == '(' && command.charAt(i + 1) == 'a'){
+            } else if (command.charAt(i) == '(' && command.charAt(i + 1) == 'a') {
                 sb.append("al");
                 i = i + 2;
             }

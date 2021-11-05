@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class CarIdentificationMachine {
     private Map<String, CarInfo> carInfoMap = new HashMap<>();
+
     public CarIdentificationMachine() {
 
     }

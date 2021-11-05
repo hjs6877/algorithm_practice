@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * 뒤집은 소수
- *  - StringBuffer 또는 StringBuilder를 사용해서 문자열을 뒤집을 수 있고, '0'을 제거할 수 있다.
+ * - StringBuffer 또는 StringBuilder를 사용해서 문자열을 뒤집을 수 있고, '0'을 제거할 수 있다.
  */
 public class Section02Problem08 {
     public static void main(String[] args) {
@@ -23,10 +23,10 @@ public class Section02Problem08 {
 
     private static boolean isPrime(int num) {
 
-        if(num == 1) return false;
+        if (num == 1) return false;
         for (int i = 2; i <= num / 2; i++) {
             if (i != num && num % i == 0) {
-               return false;
+                return false;
             }
         }
         return true;

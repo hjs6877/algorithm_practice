@@ -2,7 +2,7 @@ package com.itvillage.algorithm_site.leetcode.easy.arrays;
 
 public class SortArrayByParity {
     public static void main(String[] args) {
-        int[] nums = {3,1,2,4};
+        int[] nums = {3, 1, 2, 4};
         int[] result = sortArrayByParity(nums);
 
         for (int num : result) {

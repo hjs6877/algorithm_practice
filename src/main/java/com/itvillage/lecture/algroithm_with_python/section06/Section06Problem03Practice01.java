@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class Section06Problem03Practice01 {
     static boolean[] used;
     static int n;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();

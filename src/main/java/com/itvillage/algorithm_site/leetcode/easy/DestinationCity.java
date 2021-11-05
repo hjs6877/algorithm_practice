@@ -8,9 +8,9 @@ import java.util.Map;
 public class DestinationCity {
     public static void main(String[] args) {
         List<List<String>> paths = Arrays.asList(
-                Arrays.asList("B","C"),
-                Arrays.asList("D","B"),
-                Arrays.asList("C","A")
+                Arrays.asList("B", "C"),
+                Arrays.asList("D", "B"),
+                Arrays.asList("C", "A")
         );
         String result = destCity(paths);
 

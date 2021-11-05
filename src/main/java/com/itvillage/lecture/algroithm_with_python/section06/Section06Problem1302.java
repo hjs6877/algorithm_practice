@@ -12,6 +12,7 @@ public class Section06Problem1302 {
     static int n;
     static int result;
     static boolean[] visited;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();

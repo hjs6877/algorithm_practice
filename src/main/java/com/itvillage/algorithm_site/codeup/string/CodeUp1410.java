@@ -12,8 +12,8 @@ public class CodeUp1410 {
         int open = 0, close = 0;
 
         for (String s : strs) {
-            if(s.equals("(")) open++;
-            if(s.equals(")")) close++;
+            if (s.equals("(")) open++;
+            if (s.equals(")")) close++;
         }
 
         System.out.printf("%s %s", open, close);

@@ -13,6 +13,7 @@ public class Section07Problem05 {
     static int[] money, coins;
     static int diff;
     static int result = Integer.MAX_VALUE;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();

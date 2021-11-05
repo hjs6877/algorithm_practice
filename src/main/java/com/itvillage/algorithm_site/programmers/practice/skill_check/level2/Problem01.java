@@ -9,6 +9,7 @@ public class Problem01 {
         int lcm = solution(arr);
         System.out.println(lcm);
     }
+
     public static int solution(int[] arr) {
         int targetLcm = arr[0];
         for (int i = 1; i < arr.length; i++) {

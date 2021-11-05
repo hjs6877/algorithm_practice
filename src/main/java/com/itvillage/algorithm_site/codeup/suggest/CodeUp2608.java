@@ -22,7 +22,7 @@ public class CodeUp2608 {
             votes[level] = "O";
             dfs(level + 1);
             votes[level] = "X";
-            dfs(level+ 1);
+            dfs(level + 1);
         }
     }
 }

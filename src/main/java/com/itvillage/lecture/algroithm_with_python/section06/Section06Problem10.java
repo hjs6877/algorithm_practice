@@ -9,6 +9,7 @@ public class Section06Problem10 {
     static int n, m;
     static int[] result;
     static int count;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();

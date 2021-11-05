@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * 카드 역배치
- *  - 바꿀 숫자들의 절반만 loop 를 돌면 되는 원리를 이용하는 방법
+ * - 바꿀 숫자들의 절반만 loop 를 돌면 되는 원리를 이용하는 방법
  */
 public class Section03Problem0302 {
     public static void main(String[] args) {

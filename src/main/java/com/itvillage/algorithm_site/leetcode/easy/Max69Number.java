@@ -8,7 +8,7 @@ public class Max69Number {
         System.out.println(result);
     }
 
-    public static int maximum69Number (int num) {
+    public static int maximum69Number(int num) {
         StringBuilder sb = new StringBuilder();
         String str = String.valueOf(num);
         for (int i = 0; i < str.length(); i++) {

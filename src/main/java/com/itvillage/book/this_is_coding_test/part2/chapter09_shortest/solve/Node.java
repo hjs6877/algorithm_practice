@@ -1,6 +1,6 @@
 package com.itvillage.book.this_is_coding_test.part2.chapter09_shortest.solve;
 
-class Node implements Comparable<Node>{
+class Node implements Comparable<Node> {
     private int index;
     private int distance;
 

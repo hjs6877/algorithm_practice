@@ -9,6 +9,7 @@ public class SingleNumber {
         int result = singleNumber(arr);
         System.out.print(result);
     }
+
     public static int singleNumber(int[] nums) {
         if (nums.length == 1) {
             return nums[0];

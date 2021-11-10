@@ -3,7 +3,6 @@ package com.itvillage.algorithm_site.testdome;
 import java.util.AbstractMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.function.Supplier;
 
 public class UniqueProduct {
     public static String firstUniqueProduct(String[] products) {
@@ -22,12 +21,12 @@ public class UniqueProduct {
                         .stream()
                         .filter(product -> product.getValue() == 1)
                         .findFirst()
-                        .orElseGet((Supplier<? extends Map.Entry<String, Integer>>) new AbstractMap.SimpleEntry<String, Integer>("noexist", 0));
+                        .orElse(new AbstractMap.SimpleEntry<>("noexist", null));
 
-        return entry.getKey() == "noexist" ? null : entry.getKey();
+        return entry.getKey().equals("noexist") ? null : entry.getKey();
     }
 
     public static void main(String[] args) {
-        System.out.println(firstUniqueProduct(new String[] { "Apple", "Apple"}));
+        System.out.println(firstUniqueProduct(new String[] { "Apple", "Apple", "Melon", "Pear"}));
     }
 }

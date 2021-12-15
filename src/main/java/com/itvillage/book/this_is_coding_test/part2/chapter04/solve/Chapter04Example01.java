@@ -1,4 +1,4 @@
-package com.itvillage.book.this_is_coding_test.part2.chapter04;
+package com.itvillage.book.this_is_coding_test.part2.chapter04.solve;
 
 import java.util.Scanner;
 

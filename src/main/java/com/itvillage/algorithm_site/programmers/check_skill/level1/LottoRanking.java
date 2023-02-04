@@ -1,4 +1,4 @@
-package com.itvillage.algorithm_site.programmers.practice.level1;
+package com.itvillage.algorithm_site.programmers.check_skill.level1;
 
 public class LottoRanking {
     public static void main(String[] args) {

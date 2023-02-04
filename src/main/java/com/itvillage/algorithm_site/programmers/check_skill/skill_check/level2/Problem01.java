@@ -1,4 +1,4 @@
-package com.itvillage.algorithm_site.programmers.practice.skill_check.level2;
+package com.itvillage.algorithm_site.programmers.check_skill.skill_check.level2;
 
 /**
  * 배열의 모든 수에 대한 최소 공배수 구하기

@@ -1,4 +1,4 @@
-package com.itvillage.algorithm_site.programmers.practice.dfs_bfs;
+package com.itvillage.algorithm_site.programmers.check_skill.dfs_bfs;
 
 
 public class Network {

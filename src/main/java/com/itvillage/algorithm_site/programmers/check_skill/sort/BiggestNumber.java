@@ -1,4 +1,4 @@
-package com.itvillage.algorithm_site.programmers.practice.sort;
+package com.itvillage.algorithm_site.programmers.check_skill.sort;
 
 import java.util.Arrays;
 

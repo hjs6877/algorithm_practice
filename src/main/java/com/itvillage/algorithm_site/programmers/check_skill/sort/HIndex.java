@@ -1,6 +1,4 @@
-package com.itvillage.algorithm_site.programmers.practice.sort;
-
-import java.util.Arrays;
+package com.itvillage.algorithm_site.programmers.check_skill.sort;
 
 public class HIndex {
     public static void main(String[] args) {

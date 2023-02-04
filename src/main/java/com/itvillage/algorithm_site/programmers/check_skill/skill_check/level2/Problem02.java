@@ -1,4 +1,4 @@
-package com.itvillage.algorithm_site.programmers.practice.skill_check.level2;
+package com.itvillage.algorithm_site.programmers.check_skill.skill_check.level2;
 
 /**
  * JadenCase 문자열 만들기. 문자열 각 단어의 첫번째 문자를 대문자로 만들기

@@ -1,4 +1,4 @@
-package com.itvillage.algorithm_site.programmers.practice.full_search;
+package com.itvillage.algorithm_site.programmers.check_skill.full_search;
 
 import java.util.*;
 

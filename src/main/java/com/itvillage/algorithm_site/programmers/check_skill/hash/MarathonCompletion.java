@@ -1,4 +1,4 @@
-package com.itvillage.algorithm_site.programmers.practice.hash;
+package com.itvillage.algorithm_site.programmers.check_skill.hash;
 
 
 import java.util.HashMap;

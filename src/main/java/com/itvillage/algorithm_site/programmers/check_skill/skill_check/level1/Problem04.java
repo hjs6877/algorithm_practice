@@ -1,4 +1,4 @@
-package com.itvillage.algorithm_site.programmers.practice.skill_check.level1;
+package com.itvillage.algorithm_site.programmers.check_skill.skill_check.level1;
 
 public class Problem04 {
     public static void main(String[] args) {

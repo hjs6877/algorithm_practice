@@ -1,9 +1,6 @@
-package com.itvillage.algorithm_site.programmers.practice.sort;
+package com.itvillage.algorithm_site.programmers.check_skill.sort;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Kth {
     public static void main(String[] args) {
